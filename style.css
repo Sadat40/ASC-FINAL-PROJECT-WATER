@@ -1,20 +1,26 @@
 body{
-    background-color:rgba(0, 0, 255, 0.744);
+    background-image: url("images/bg6water.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
+
 nav{
-    display:flex;
-    justify-content: center;
+  background-color: #272D33;
+  padding: 5px;
+  display:flex;
+  justify-content:space-around;
+
 }
 h1{
-    font-size: 40px;
+  font-size: 40px;
   font-weight: 10px;
-  color: white;
-  font-size: 50px;
-  padding: 25px;
+  color: black;
+  font-family:helvetica;
+
 }
 button{
-    background-color: black; /* Black */
+
   border:none;
   color: white;
     padding: 15px 32px;
@@ -22,4 +28,13 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 110px;
+}
+
+#navi{
+  font-family:Helvetica;
+  background-color:#272D33;
+  color:white;
+  font-size:32px;
+  padding:5px
+
 }
