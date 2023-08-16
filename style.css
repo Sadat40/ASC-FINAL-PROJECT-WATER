@@ -1,11 +1,17 @@
 #indexbody{
-    background-image: url("images/bg6water.jpeg");
-    background-repeat: no-repeat;
-    background-size:cover;
+  background-color: rgb(152,180,212);
+  font-size:20px;
+  font-family:'Optima';
 }
 
+#homepage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-nav{
+#nav{
   background-color: #272D33;
   padding: 5px;
   display:flex;
@@ -16,7 +22,7 @@ h1{
   font-size: 40px;
   font-weight: 10px;
   color: black;
-  font-family:helvetica;
+  font-family:Optima;
 
 }
 button{
@@ -31,7 +37,7 @@ button{
 }
 
 #navi{
-  font-family:Helvetica;
+  font-family:Optima;
   background-color:#272D33;
   color:white;
   font-size:32px;
@@ -42,4 +48,60 @@ a{
   width:20%;
   text-align:center;
   text-decoration:none;
+}
+
+
+#intro{
+  font-size:40px;
+  font-family:'Optima';
+  margin-left:20px;
+}
+#change{
+  font-size:40px;
+  font-family:'Optima';
+}
+#pollution{
+  margin-right:150px;
+}
+
+#causes{
+  background-color: rgb(152,180,212);
+  font-size:20px;
+  font-family:'Optima';
+}
+#effects{
+  background-color: rgb(152,180,212);
+  font-size:20px;
+  font-family:'Optima';
+}
+#solutions{
+  background-color: rgb(152,180,212);
+  font-size:20px;
+  font-family:'Optima';
+}
+#quiz{
+  background-color: rgb(152,180,212);
+  font-size:20px;
+  font-family:'Optima';
+}
+#causesnav{
+  display:flex;
+  justify-content: space-between;
+}
+
+#question{
+  border-style: solid;
+  border-color: black;
+  background-color:rgb(92, 92, 195);
+  font-size:100px;
+  font-family:'Optima';
+  color:white;
+}
+
+#answer{
+  border-style: solid;
+  border-color: black;
+  background-color:rgb(92, 92, 195);
+  font-size:50px;
+  font-family:'Optima';
 }
