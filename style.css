@@ -1,3 +1,4 @@
+
 #indexbody{
   background-color: rgb(152,180,212);
   font-size:20px;
@@ -36,7 +37,39 @@ button{
   font-size: 110px;
 }
 
-#navi{
+#navi1{
+  font-family:Optima;
+  background-color:#272D33;
+  color:white;
+  font-size:32px;
+  padding:5px
+
+}
+#navi2{
+  font-family:Optima;
+  background-color:#272D33;
+  color:white;
+  font-size:32px;
+  padding:5px
+
+}
+#navi3{
+  font-family:Optima;
+  background-color:#272D33;
+  color:white;
+  font-size:32px;
+  padding:5px
+
+}
+#navi4{
+  font-family:Optima;
+  background-color:#272D33;
+  color:white;
+  font-size:32px;
+  padding:5px
+
+}
+#navi5{
   font-family:Optima;
   background-color:#272D33;
   color:white;
@@ -93,7 +126,7 @@ a{
   border-style: solid;
   border-color: black;
   background-color:rgb(92, 92, 195);
-  font-size:100px;
+  font-size:50px;
   font-family:'Optima';
   color:white;
 }
@@ -104,4 +137,64 @@ a{
   background-color:rgb(92, 92, 195);
   font-size:50px;
   font-family:'Optima';
+}
+
+#comment{
+  font-size:100px;
+  font-family:'Optima';
+  color:white;
+}
+@media (max-width: 420px) { 
+  #navi1{
+    font-size:15px;
+    color:white;
+  }
+  #navi2{
+    font-size:15px;
+    color:white;
+  }
+  #navi3{
+    font-size:15px;
+    color:white;
+  }
+  #navi4{
+    font-size:15px;
+    color:white;
+  }
+  #navi5{
+    font-size:15px;
+    color:white;
+  }
+  #logo{
+    width:267px;
+    height:333px;
+  }
+  #change{
+    font-size:25px;
+  }
+  #intro{
+    font-size:20px;
+  }
+  #causesi{
+    font-size:15px;
+  }
+  #h2c{
+    font-size:20px;
+  }
+  #causesnav{
+    font-size:20px;
+  }
+  #pollution{
+    width:150px;
+    height:250px;
+  }
+  ul{
+    font-size:15px;
+  }
+  #question{
+    font-size:20px;
+  }
+  #answer{
+    font-size:15px;
+  }
 }
