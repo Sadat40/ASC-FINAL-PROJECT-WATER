@@ -126,8 +126,8 @@ button9.onclick = function(){
   if (!q3clicked){
     q3clicked=true;
     button9.style.backgroundColor="red";
-    button10.style.backgroundColor="red";
-    button11.style.backgroundColor="green";
+    button10.style.backgroundColor="green";
+    button11.style.backgroundColor="red";
     button12.style.backgroundColor="red";
   }
 }
@@ -137,9 +137,10 @@ button10.onclick = function(){
   if (!q3clicked){
     q3clicked=true;
     button9.style.backgroundColor="red";
-    button10.style.backgroundColor="red";
-    button11.style.backgroundColor="green";
+    button10.style.backgroundColor="green";
+    button11.style.backgroundColor="red";
     button12.style.backgroundColor="red";
+    score++;
   }
 }
 
@@ -147,8 +148,8 @@ button11.onclick = function(){
   if (!q3clicked){
     q3clicked=true;
     button9.style.backgroundColor="red";
-    button10.style.backgroundColor="red";
-    button11.style.backgroundColor="green";
+    button10.style.backgroundColor="green";
+    button11.style.backgroundColor="red";
     button12.style.backgroundColor="red";
     score++;
   }
@@ -158,8 +159,8 @@ button12.onclick = function(){
   if (!q3clicked){
     q3clicked=true;
     button9.style.backgroundColor="red";
-    button10.style.backgroundColor="red";
-    button11.style.backgroundColor="green";
+    button10.style.backgroundColor="green";
+    button11.style.backgroundColor="red";
     button12.style.backgroundColor="red";
   }
 }
